@@ -1,44 +1,138 @@
+@font-face {font-family: "PF Din Text Comp Pro"; src: url("//db.onlinewebfonts.com/t/b202029a22ea772e2f47d22309254735.eot"); src: url("//db.onlinewebfonts.com/t/b202029a22ea772e2f47d22309254735.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b202029a22ea772e2f47d22309254735.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b202029a22ea772e2f47d22309254735.woff") format("woff"), url("//db.onlinewebfonts.com/t/b202029a22ea772e2f47d22309254735.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b202029a22ea772e2f47d22309254735.svg#PF Din Text Comp Pro") format("svg"); }
 *{
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "PF Din Text Comp Pro"
 }
-.header{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background-color: rgb(0, 15,38);
+body{
+    font-family: "PF Din Text Comp Pro";
 }
-.img-wrapper{
-    width: 80%;
-    margin: 20px auto 20px;
-    max-width: 300px;
-    position: relative;
-}
-.img-wrapper img{
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-}
-.title{
+
+
+
+.main{
     text-align: center;
     margin: auto;
-    font-size: 30px;
-    color: white;
-}
-.btn{
-    background-color: rgb(0, 187,158);
-    width: 70%;
-    max-width: 300px;
-    margin: 0 auto;
-    outline: none;
-    border: none;
+    max-width: 500px;
+} 
+
+.main-title{
+    max-width: 500px;
+} 
+
+.winline-img img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+} 
+
+.header-btn 
+
+.btn-link{
+    margin: auto ;
     padding: 15px;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: 600;
+    display: inline-block;
+    width: 251px;
+    font-family: "Whitney", "Roboto Medium", "Arial", sans-serif;
+    font-size: 20px;
+    color: #fff;
     text-align: center;
-    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    background-color: #54d02a;
+    background: -moz-linear-gradient(180deg, rgba(84, 208, 42, 1) 0%, rgba(58, 198, 10, 1) 100%);
+    box-shadow: 0px 14px 28px 0px rgba(58, 198, 10, 0.32);
+    border-radius: 26px;
+    box-sizing: border-box;
+    clear: both;
+} 
+
+.description{
+
+} 
+.descriptio-img{
+
+}
+
+.description-title p{
+
+    margin: 36px 0;
+    padding: 0 45px;
+    font-size: 27px;
+    font-weight: 900;
+    color: #1c1c1c;
+    text-align: center;
+    letter-spacing: 0.3px;
+} 
+
+.description-steps{
+    
+} 
+
+.step-list{} 
+
+.list-item span{
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 2px solid orange;
+    border-radius: 50px;
+
+}
+
+.list-item{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    max-width: 90%;
+} 
+
+.offer-block{
+    margin: 10px 0;
+    max-width: 250px;
+    text-align: initial;
+    color: #1c1c1c;
+} 
+
+.offer-title{
+    margin-bottom: 5px;
+} 
+
+.offer-description{
+    font-family: "PF Din Text Comp Pro";
+    font-style: italic;
+    margin-top: 5px;
+    font-weight: 900;
+    font-size: 30px;
+} 
+.footer{
+    background-color: #f4f4f5;
+    padding: 15px 15px;
+    margin-bottom: 20px;
+}
+.footer-btn{
+    margin: auto ;
+    padding: 15px;
+    display: inline-block;
+    width: 251px;
+    font-family: "Whitney", "Roboto Medium", "Arial", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    background-color: #54d02a;
+    background: -moz-linear-gradient(180deg, rgba(84, 208, 42, 1) 0%, rgba(58, 198, 10, 1) 100%);
+    box-shadow: 0px 14px 28px 0px rgba(58, 198, 10, 0.32);
+    border-radius: 26px;
+    box-sizing: border-box;
+    clear: both;
+}
+.footer p{
+    margin: 36px 0;
+    padding: 0 45px;
+    font-size: 27px;
+    font-weight: 900;
+    color: #1c1c1c;
+    text-align: center;
+    letter-spacing: 0.3px;
 }
